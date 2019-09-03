@@ -1,0 +1,17 @@
+a img{
+    outline-style: solid;
+    outline-color: rgba(0, 0, 0, 0.0);
+    outline-width: 1px;
+    
+    -webkit-transition:  outline-color .3s ease-in;
+    -moz-transition: outline-color  .3s ease-in;
+    -o-transition: outline-color  .3s ease-in;
+    transition: outline-color  .3s ease-in;
+}
+a img:hover{
+    outline-color: rgba(0, 0, 0, 1.0);
+  
+}
+.h3{
+    color: black !important;
+}
